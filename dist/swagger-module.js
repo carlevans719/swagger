@@ -30,7 +30,7 @@ class SwaggerModule {
     static setupExpress(path, app, document, options) {
         const httpAdapter = app.getHttpAdapter();
         const finalPath = validate_path_util_1.validatePath(path);
-        const swaggerUi = load_package_util_1.loadPackage('swagger-ui-express', 'SwaggerModule', () => require('swagger-ui-express'));
+        const swaggerUi = load_package_util_1.loadPackage('modified-swagger-ui-express', 'SwaggerModule', () => require('modified-swagger-ui-express'));
         const swaggerHtml = swaggerUi.generateHTML(document, options);
         app.use(finalPath, swaggerUi.serveFiles(document, options));
         httpAdapter.get(finalPath, (req, res) => res.send(swaggerHtml));

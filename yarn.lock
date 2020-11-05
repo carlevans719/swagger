@@ -5276,6 +5276,13 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+modified-swagger-ui-express@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/modified-swagger-ui-express/-/modified-swagger-ui-express-4.1.4.tgz#cb78b7791a4d3c8e80c038fdf6625cf2aa8fed79"
+  integrity sha512-EdO0E3tu+Eqw1J6YuVRa9RyI6ulT/aPUKc+AoW4nXIW2UYqMEHIjZWCIDxUJ8DPxXKKV6zGHlNHMqzUdTEw3tQ==
+  dependencies:
+    swagger-ui "https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -7186,12 +7193,6 @@ swagger-parser@10.0.2:
   integrity sha512-9jHkHM+QXyLGFLk1DkXBwV+4HyNm0Za3b8/zk/+mjr8jgOSiqm3FOTHBSDsBjtn9scdL+8eWcHdupp2NLM8tDw==
   dependencies:
     "@apidevtools/swagger-parser" "10.0.2"
-
-"swagger-ui-express@https://github.com/carlevans719/swagger-ui-express.git#a94072530d1086a0187c61eb26ff764976ef5383":
-  version "4.1.4"
-  resolved "https://github.com/carlevans719/swagger-ui-express.git#a94072530d1086a0187c61eb26ff764976ef5383"
-  dependencies:
-    swagger-ui "https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
 
 "swagger-ui@https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76":
   version "3.36.1"

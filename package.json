@@ -47,11 +47,11 @@
     "husky": "4.3.0",
     "jest": "26.6.3",
     "lint-staged": "10.5.1",
+    "modified-swagger-ui-express": "^4.1.4",
     "prettier": "2.1.2",
     "reflect-metadata": "0.1.13",
     "release-it": "14.2.1",
     "swagger-parser": "10.0.2",
-    "swagger-ui-express": "https://github.com/carlevans719/swagger-ui-express.git#a94072530d1086a0187c61eb26ff764976ef5383",
     "ts-jest": "26.4.3",
     "typescript": "3.9.7"
   },

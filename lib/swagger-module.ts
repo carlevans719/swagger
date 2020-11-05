@@ -48,8 +48,8 @@ export class SwaggerModule {
   ) {
     const httpAdapter = app.getHttpAdapter();
     const finalPath = validatePath(path);
-    const swaggerUi = loadPackage('swagger-ui-express', 'SwaggerModule', () =>
-      require('swagger-ui-express')
+    const swaggerUi = loadPackage('modified-swagger-ui-express', 'SwaggerModule', () =>
+      require('modified-swagger-ui-express')
     );
     const swaggerHtml = swaggerUi.generateHTML(document, options);
     app.use(finalPath, swaggerUi.serveFiles(document, options));
