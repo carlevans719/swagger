@@ -23,8 +23,7 @@
   "dependencies": {
     "@nestjs/mapped-types": "0.1.1",
     "lodash": "4.17.20",
-    "path-to-regexp": "3.2.0",
-    "swagger-ui-express": "https://github.com/carlevans719/swagger-ui-express.git#a94072530d1086a0187c61eb26ff764976ef5383"
+    "path-to-regexp": "3.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -52,6 +51,7 @@
     "reflect-metadata": "0.1.13",
     "release-it": "14.2.1",
     "swagger-parser": "10.0.2",
+    "swagger-ui-express": "https://github.com/carlevans719/swagger-ui-express.git#a94072530d1086a0187c61eb26ff764976ef5383",
     "ts-jest": "26.4.3",
     "typescript": "3.9.7"
   },
