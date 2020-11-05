@@ -5276,12 +5276,56 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-modified-swagger-ui-express@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/modified-swagger-ui-express/-/modified-swagger-ui-express-4.1.4.tgz#cb78b7791a4d3c8e80c038fdf6625cf2aa8fed79"
-  integrity sha512-EdO0E3tu+Eqw1J6YuVRa9RyI6ulT/aPUKc+AoW4nXIW2UYqMEHIjZWCIDxUJ8DPxXKKV6zGHlNHMqzUdTEw3tQ==
+modified-swagger-ui-express@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/modified-swagger-ui-express/-/modified-swagger-ui-express-4.1.5.tgz#f19f8d35c55811ffea2733b003818163cecddfaf"
+  integrity sha512-JmiHY+A82XdF/cRXB1FLqtlh4CEHWeLlEKL2ZNL4xVUfPtMWqPSIpP5xTPHFsoQpobasdgTyErwKftK4RBachw==
   dependencies:
-    swagger-ui "https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
+    modified-swagger-ui "^3.36.1"
+
+modified-swagger-ui@^3.36.1:
+  version "3.36.1"
+  resolved "https://registry.yarnpkg.com/modified-swagger-ui/-/modified-swagger-ui-3.36.1.tgz#6883084f78c65883c58ed64bb70107e72add9a23"
+  integrity sha512-rT9xMZwIEtvR0owaUNVe7dAMukuBUvdOFKUm1eqyc5lfzne4/dwceNqgyO4pA1Q/WTykGeJwxzljhQPnrfUaLg==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.11.2"
+    "@braintree/sanitize-url" "^5.0.0"
+    "@kyleshockey/object-assign-deep" "^0.4.2"
+    "@kyleshockey/xml" "^1.0.2"
+    base64-js "^1.2.0"
+    classnames "^2.2.6"
+    core-js "^2.6.11"
+    css.escape "1.5.1"
+    deep-extend "0.6.0"
+    dompurify "^2.0.7"
+    ieee754 "^1.1.13"
+    immutable "^3.x.x"
+    js-file-download "^0.4.1"
+    js-yaml "^3.13.1"
+    lodash "^4.17.19"
+    memoizee "^0.4.12"
+    prop-types "^15.7.2"
+    randombytes "^2.1.0"
+    react "^15.6.2"
+    react-copy-to-clipboard "5.0.1"
+    react-debounce-input "^3.2.0"
+    react-dom "^15.6.2"
+    react-immutable-proptypes "2.1.0"
+    react-immutable-pure-component "^1.1.1"
+    react-inspector "^2.3.0"
+    react-motion "^0.5.2"
+    react-redux "=4.4.10"
+    react-syntax-highlighter "=13.5.0"
+    redux "=3.7.2"
+    redux-immutable "3.1.0"
+    remarkable "^2.0.1"
+    reselect "^4.0.0"
+    serialize-error "^2.1.0"
+    sha.js "^2.4.11"
+    swagger-client "=3.12.0"
+    url-parse "^1.4.7"
+    xml-but-prettier "^1.0.1"
+    zenscroll "^4.0.2"
 
 ms@2.0.0:
   version "2.0.0"
@@ -7193,49 +7237,6 @@ swagger-parser@10.0.2:
   integrity sha512-9jHkHM+QXyLGFLk1DkXBwV+4HyNm0Za3b8/zk/+mjr8jgOSiqm3FOTHBSDsBjtn9scdL+8eWcHdupp2NLM8tDw==
   dependencies:
     "@apidevtools/swagger-parser" "10.0.2"
-
-"swagger-ui@git+https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76":
-  version "3.36.1"
-  resolved "git+https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
-  dependencies:
-    "@babel/runtime-corejs3" "^7.11.2"
-    "@braintree/sanitize-url" "^5.0.0"
-    "@kyleshockey/object-assign-deep" "^0.4.2"
-    "@kyleshockey/xml" "^1.0.2"
-    base64-js "^1.2.0"
-    classnames "^2.2.6"
-    core-js "^2.6.11"
-    css.escape "1.5.1"
-    deep-extend "0.6.0"
-    dompurify "^2.0.7"
-    ieee754 "^1.1.13"
-    immutable "^3.x.x"
-    js-file-download "^0.4.1"
-    js-yaml "^3.13.1"
-    lodash "^4.17.19"
-    memoizee "^0.4.12"
-    prop-types "^15.7.2"
-    randombytes "^2.1.0"
-    react "^15.6.2"
-    react-copy-to-clipboard "5.0.1"
-    react-debounce-input "^3.2.0"
-    react-dom "^15.6.2"
-    react-immutable-proptypes "2.1.0"
-    react-immutable-pure-component "^1.1.1"
-    react-inspector "^2.3.0"
-    react-motion "^0.5.2"
-    react-redux "=4.4.10"
-    react-syntax-highlighter "=13.5.0"
-    redux "=3.7.2"
-    redux-immutable "3.1.0"
-    remarkable "^2.0.1"
-    reselect "^4.0.0"
-    serialize-error "^2.1.0"
-    sha.js "^2.4.11"
-    swagger-client "=3.12.0"
-    url-parse "^1.4.7"
-    xml-but-prettier "^1.0.1"
-    zenscroll "^4.0.2"
 
 symbol-observable@^1.0.3:
   version "1.2.0"
