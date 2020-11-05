@@ -7194,9 +7194,9 @@ swagger-parser@10.0.2:
   dependencies:
     "@apidevtools/swagger-parser" "10.0.2"
 
-"swagger-ui@https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76":
+"swagger-ui@git+https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76":
   version "3.36.1"
-  resolved "https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
+  resolved "git+https://github.com/carlevans719/swagger-ui.git#3b3e0237f2f0e66eb154958d724a464f7bf6dd76"
   dependencies:
     "@babel/runtime-corejs3" "^7.11.2"
     "@braintree/sanitize-url" "^5.0.0"
